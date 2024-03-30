@@ -13,8 +13,8 @@ import re
 openai.api_key = '#'
 
 # Initialize Spotify API credentials
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id='e743c27af4964a32b064dc71dc5f5ceb',
-                                               client_secret='254dca36402e4541a079140ff67c4067',
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id='',
+                                               client_secret='',
                                                redirect_uri='http://localhost:8888/callback',
                                                scope='user-library-read'))
 
